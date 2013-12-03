@@ -21,18 +21,47 @@ body{
 	background-repeat: repeat-y;
 }
 h2{
-	padding:10px 0 10px 12px;
+	padding:10px 0 10px 15px;
 	background: #666;
 	color: #FFF;
 	text-transform: uppercase;
 }
 h3{
-	padding:4px 0 4px 12px;
-	background: #333;
+	padding:4px 0 4px 15px;
+	background: #444;
 	color: #FFF;
 	text-transform: uppercase;
 	text-align: center;
 }
+
+.director_video_thumb{
+	margin-top:10px;
+	max-width:100%;
+}
+
+.fancybox{
+	cursor: pointer;
+}
+
+.video_thumb_big{
+	width:100%;
+	text-align: center;
+}
+
+.main_p{
+	padding-left:1.8%;
+	width:98.2%;
+}
+
+.url_link{
+	color:#e72d27;
+}
+
+.url_link:hover{
+	color:#e72d27;
+	text-decoration: none;
+}
+
 
 /*//override bootstrap*/
 .panel.panel-default{
@@ -43,6 +72,10 @@ h3{
 	background-color: #DD3333;
 	color: #FFF;
 	border-radius: 0;
+}
+
+.thumbnail{
+	border:0 none;
 }
 
 
